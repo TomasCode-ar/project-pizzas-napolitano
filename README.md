@@ -38,8 +38,8 @@ Aplicación web que presenta un catalogo de pizzas con funcionalidad de carrito 
 
 
 ## Screenshots
-    ![Pizzeria imagen 1](Pizzas-1.png) 
-    ![Pizzeria imagen 2](Pizzas-2.png) 
+    ![Pizzeria imagen 1](project-pizzas-napolitano/img/Pizzas-1.png) 
+    ![Pizzeria imagen 2](project-pizzas-napolitano/img/Pizzas-2.png) 
 ## Authors
 
 - [@TomasCode](https://www.github.com/TomasCode-ar)
