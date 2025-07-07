@@ -8,8 +8,11 @@ html {
 
 body {
     background-color: #fff;
-    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
+
 
 #header-container {
     display: flex;
@@ -77,6 +80,15 @@ nav ul li a:hover {
     left: -10px;
     top: -20px;
     opacity: 0.9;
+}
+
+#subtotal {
+    display: none;
+    font-family: "Oswald", sans-serif;
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0px 5px;
 }
 
 .gallery {
@@ -238,6 +250,34 @@ footer {
     border-top: 1px solid #e1e8ee;
     padding-top: 20px;
 }
+
+.form-signin {
+    width: 100%;
+    max-width: 380px;
+    background-color: #fff;
+    border: none;
+    padding: 15px 35px 45px 35px;
+}
+
+.form-signin-heading {
+    margin-bottom: 30px;
+}
+
+form input [type="text"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+form input [type="password"] {
+    border-top-left-radius: 0;  
+    border-top-right-radius: 0;
+}
+
+#errorMessages{
+    text-align: center;
+    color:#d1001f;
+    font-size:0.8rem;
+  } 
 
 @media (max-width: 960px) {
 

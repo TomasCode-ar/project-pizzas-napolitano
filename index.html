@@ -40,8 +40,8 @@
     </header>
     <div class="main-content">
         <h2 class="animate__animated animate__rubberBand">Nuestras Pizzas</h2>
-        <div>
-            <p>El precio total es: <span id="subtotal" value=""></span></p>
+        <div id="subtotal">
+            <p>El precio total es de: <span id="totalamount" value="0"></span></p>
         </div>
         <div id="cart">
             <i class="fa badge" id="badge" value="0"><i class="fa-solid fa-cart-shopping fa-xl"></i></i>
@@ -137,6 +137,7 @@
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Sucursales & Delivery</a></li>
                     <li><a href="#">Contacto</a></li>
+                    <li><a href="login.html">Login</a></li>
                     <li><a href="#">Política de Privacidad</a></li>
                 </ul>
             </div>
@@ -179,7 +180,9 @@
                 products.push(this.value);
                 totalPrice = totalPrice + price;
                 console.log("Total : " + totalPrice);
-                document.getElementById("badge").setAttribute("value", products.length)
+                document.getElementById("badge").setAttribute("value", products.length);
+                document.getElementById("subtotal").style.display="block";
+                document.getElementById("totalamount").textContent= totalPrice;
             }
         }
     </script>
