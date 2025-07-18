@@ -1,0 +1,52 @@
+https://www.ssldragon.com/es/blog/tipos-algoritmos-cifrado/
+
+
+describe users;
+select * from users;
+insert into users(username,password,email) values
+('test',SHA2('test123',256),'email@test.com'),
+('admin',SHA2('admin123',256),'admin@test.com');
+select username,email,active from users;
+select count(*) from users;
+alter table users add column updated_at TIMESTAMP default CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+ select * from users;
+--2025-07-18 18:46:25
+update users set email='test123@test.com' where username='test' ;
+select * from users;
+select * from users where username='test';
+select * from users where active='SI'; 
+update users set active='NO' where username='test';
+select * from users where username='test';
+
+select * from users
+update users set password='' where username='test';
+--update users set password=NULL where username='test';
+
+select count(*) as 'usuarios bloqueados' from users where active='NO';
+
+-- Borrar los usuarios bloqueados
+
+delete from users where active='NO';:D
+select * from users;
+
+select username,email,create_at from users order by create_at asc;
+
+select username,email,create_at from users order by create_at desc limit 1;
+
+-- Verificar si un username ya existe (pepe)
+
+select username from users where username='pepe';
+select count(*) from users where username='pepe';
+
+insert into users(username,email,password) values 
+('mariela','mariela@caatest.com',''),
+('omar','omar@test.com',''),
+('marcelo','marcelo@test.com','');
+
+
+select * from users where username like '%mar%';
+select * from users where username like 'mar%';
+select * from users where username like '%mar';
+
+
+select count(*) from users where (username='maria' or email='maria@bigdata.com') and password=sha2('123456',256);

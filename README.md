@@ -42,7 +42,7 @@ Aplicación web que presenta un catalogo de pizzas con funcionalidad de carrito 
     ![Pizzeria imagen 1](Pizzas-1.png) 
 
     ![Pizzeria imagen 2](Pizzas-2.png) 
-    
+
 ## Authors
 
 - [@TomasCode](https://www.github.com/TomasCode-ar)
