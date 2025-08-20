@@ -1,16 +1,17 @@
 :root {
     --color-nav: #333;
-}
+    --g-brand-color: linear-gradient(144deg, rgba(68, 155, 42, 1) 0%, rgba(255, 255, 255, 0.71) 50%, rgba(255, 0, 0, 1) 100%);
 
-html {
-    font-size: 16px;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
     background-color: #fff;
     font-family: "Lato", sans-serif;
     background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background: var(--g-brand-color)
 }
 
 
@@ -269,15 +270,15 @@ form input [type="text"] {
 }
 
 form input [type="password"] {
-    border-top-left-radius: 0;  
+    border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
 
-#errorMessages{
+#errorMessages {
     text-align: center;
-    color:#d1001f;
-    font-size:0.8rem;
-  } 
+    color: #d1001f;
+    font-size: 0.8rem;
+}
 
 @media (max-width: 960px) {
 
