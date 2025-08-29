@@ -37,3 +37,5 @@ https://sqlbolt.com/
 https://www.phind.com/
 
 https://www.kaggle.com/learn
+
+https://www.befunky.com/es/
