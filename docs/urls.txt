@@ -39,3 +39,7 @@ https://www.phind.com/
 https://www.kaggle.com/learn
 
 https://www.befunky.com/es/
+
+https://datatables.net/
+
+https://bootboxjs.com/
