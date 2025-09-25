@@ -116,7 +116,7 @@
 
         function updateProduct(cod) {
 
-            window.location = "update.php?q=" + cod;
+            window.location = "edit.php?q=" + cod;
 
         }
     </script>
