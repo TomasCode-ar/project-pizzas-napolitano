@@ -35,7 +35,7 @@
             echo "Horario de Conexión: " . $_SESSION['time'];
             echo "<br>";
             echo "<br>";
-            echo "<a href='insert_products.php'>INSERTAR PRODUCTOS</a>";
+            echo "<a href='insert.php'>INSERTAR PRODUCTOS</a>";
             echo "<br>";
             $table = " <div class='table-responsive'><table class='table table-bordered table-striped' id='ourTable'>
             <thead class='thead-dark'>
