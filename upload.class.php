@@ -27,7 +27,7 @@ class Upload
                 exit("No se puede subir una imagen con ese formato ");
             }
         } else {
-            //si existe la variable pero se pasa del tamaño permitido
+            //si existe la variable pero se pasa del tamaño permitido   
             if ($nombre_img == !NULL) exit("La imagen es demasiado grande ");
         }
         return $directorio . $nombre_img;
