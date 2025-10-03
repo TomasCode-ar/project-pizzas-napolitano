@@ -12,7 +12,9 @@ try {
     echo "<br>";
     $pizza_jamon->setStock(130);
     echo "El nuevo Stock es : " . $pizza_jamon->getStock();
-    
+    $pizza_jamon->reduceStock(10);
+    echo "<br>";
+    echo "El nuevo stock es de: " . $pizza_jamon->getStock();
 } catch (Exception $e) {
     echo "Error en el Producto";
 }
